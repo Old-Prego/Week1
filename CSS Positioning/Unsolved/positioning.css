@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+
+  }
+
+body{
+    width:600px;
+    margin:0,auto;
+}
+
+#fixed-div{
+    text-align:center;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#eee;
+    width:200px;
+    height:100px;
+}
+#relative-div{
+    text-align:center;
+    position:relative;
+    width:50%;
+    height:150px;
+    Left:25%;
+    background:#eee;
+}
+#absolute-div{
+    text-align:center;
+    position:absolute;
+    background:#999;
+    right:230px;
+    width:200px;
+    height:100px;
+    top:250px;
+}
+
+.paragraphs{
+    text-align:center;
+}
+
+h1{
+    margin-left:150px;
+    margin-right:150px;
+}
